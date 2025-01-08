@@ -1,5 +1,6 @@
 let domainMaps = {};
 let reverseDomainMaps = {};
+let domain = 'ghpcf.pages.dev';
 const index = {
   async fetch(request, env, _ctx) {
     const needCancel = await needCancelRequest(request);
